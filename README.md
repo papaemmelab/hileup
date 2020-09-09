@@ -42,8 +42,7 @@ for ins in h.insertions: # copy of the data.
 print(h.tags) # copy.
 ```
 
-To build `python setup.py build_ext -i`
-To install `python setup.py install`
+To install `cd hileup; pip install .`
 
 Because it minimizes operations in python, it is quite fast (for python).
 
